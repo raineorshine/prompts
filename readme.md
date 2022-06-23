@@ -1,3 +1,32 @@
+Fork changes:
+
+- Add heading support to multiselect.
+- Change cursor style to use ❯ instead of underline and color.
+
+Used by [npm-check-updates](https://github.com/raineorshine/npm-check-updates).
+
+e.g.
+
+```sh
+Patch   Backwards-compatible bug fixes
+❯ ◉ pacote                             ^13.6.0  →  ^13.6.1
+  ◉ @types/pacote                      ^11.1.4  →  ^11.1.5
+  ◉ eslint-plugin-jsdoc                ^39.3.2  →  ^39.3.3
+  ◉ prettier                             2.7.0  →    2.7.1
+  ◉ typescript                          ^4.7.3  →   ^4.7.4
+
+Minor   Backwards-compatible features
+  ◉ @typescript-eslint/eslint-plugin   ^5.28.0  →  ^5.29.0
+  ◉ @typescript-eslint/parser          ^5.28.0  →  ^5.29.0
+  ◉ eslint                             ^8.17.0  →  ^8.18.0
+
+Major   Potentially breaking API changes
+  ◯ update-notifier                     ^5.1.0  →   ^6.0.0
+  ◯ @types/node                       ^17.0.44  →  ^18.0.0
+```
+
+---
+
 <p align="center">
   <img src="https://github.com/terkelg/prompts/raw/master/prompts.png" alt="Prompts" width="500" />
 </p>
