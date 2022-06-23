@@ -1,9 +1,9 @@
 {
-  "name": "prompts",
+  "name": "prompts-ncu",
   "version": "2.4.2",
   "description": "Lightweight, beautiful and user-friendly prompts",
   "license": "MIT",
-  "repository": "terkelg/prompts",
+  "repository": "https://github.com/raineorshine/prompts/tree/ncu",
   "main": "index.js",
   "author": {
     "name": "Terkel Gjervig",

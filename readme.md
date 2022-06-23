@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/prompts-ncu)](https://www.npmjs.com/package/prompts-ncu)
+
 Fork changes:
 
 - Add heading support to multiselect.
