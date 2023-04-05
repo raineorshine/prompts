@@ -39,8 +39,8 @@ Major   Potentially breaking API changes
   <a href="https://npmjs.org/package/prompts">
     <img src="https://img.shields.io/npm/v/prompts.svg" alt="version" />
   </a>
-  <a href="https://travis-ci.org/terkelg/prompts">
-    <img src="https://img.shields.io/travis/terkelg/prompts.svg" alt="travis" />
+  <a href="https://github.com/terkelg/prompts/actions/workflows/test.yml">
+    <img src="https://github.com/terkelg/prompts/actions/workflows/test.yml/badge.svg" alt="test" />
   </a>
   <a href="https://npmjs.org/package/prompts">
     <img src="https://img.shields.io/npm/dm/prompts.svg" alt="downloads" />
@@ -76,7 +76,7 @@ Major   Potentially breaking API changes
 $ npm install --save prompts
 ```
 
-> This package supports Node 6 and above
+> This package supports Node 14 and above
 
 ![split](https://github.com/terkelg/prompts/raw/master/media/split.png)
 
@@ -747,7 +747,7 @@ Use <kbd>up</kbd>/<kbd>down</kbd> to navigate. Use <kbd>tab</kbd> to cycle the l
 
 ### multiselect(message, choices, [initial], [max], [hint], [warn])
 ### autocompleteMultiselect(same)
-> Interactive multi-select prompt.  
+> Interactive multi-select prompt.
 > Autocomplete is a searchable multiselect prompt with the same options. Useful for long lists.
 
 Use <kbd>space</kbd> to toggle select/unselect and <kbd>up</kbd>/<kbd>down</kbd> to navigate. Use <kbd>tab</kbd> to cycle the list. You can also use <kbd>right</kbd> to select and <kbd>left</kbd> to deselect.
