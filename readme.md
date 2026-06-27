@@ -45,6 +45,9 @@ Major   Potentially breaking API changes
   <a href="https://npmjs.org/package/prompts">
     <img src="https://img.shields.io/npm/dm/prompts.svg" alt="downloads" />
   </a>
+  <a href="https://licenses.dev/npm/prompts">
+    <img src="https://licenses.dev/b/npm/prompts" alt="licenses" />
+  </a>
   <!---
    <a href="https://packagephobia.now.sh/result?p=prompts">
     <img src="https://packagephobia.now.sh/badge?p=prompts" alt="install size" />
@@ -90,12 +93,12 @@ const prompts = require('prompts');
 (async () => {
   const response = await prompts({
     type: 'number',
-    name: 'value',
+    name: 'age',
     message: 'How old are you?',
     validate: value => value < 18 ? `Nightclub is 18+ only` : true
   });
 
-  console.log(response); // => { value: 24 }
+  console.log(response); // => { age: 24 }
 })();
 ```
 
